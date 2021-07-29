@@ -14,9 +14,102 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header></header>
+    <header>
+      <section
+        class="
+          row
+          d-flex
+          justify-content-between
+          hero-section
+          container
+          mx-auto
+          py-5
+        "
+      >
+        <!-- hero title -->
+        <div
+          class="
+            col-lg-5 col-md-12 col-sm-12 col-12
+            d-flex
+            flex-column
+            justify-content-center
+          "
+        >
+          <p class="text-details">
+            The CBR300R takes what the CBR250R offers and turns it up a notch.
+          </p>
+          <p class="fs-1 fw-bold text-white">Honda CBR 300R</p>
+          <p class="fw-light text-details">
+            If you’ve got a soft spot for sportbike design and Grand Prix
+            stylings, then the 2021 Honda CBR300R is your sweet spot between
+            form and function. It’s narrow, light, and a total blast to ride
+            around town and on twisty back roads.
+          </p>
+          <!-- Button trigger modal -->
+          <div class="w-50">
+            <button
+              type="button"
+              class="btn btn-primary primary-button px-3 py-2 w-100"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Purchase
+            </button>
+          </div>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Modal title
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">...</div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- hero image -->
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+          <img class="w-100 pt-5 pt-lg-0" src="images/header-bike.png" alt="" />
+        </div>
+      </section>
+    </header>
     <main></main>
     <!-- bootstrap js -->
     <script

@@ -1,0 +1,20 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --main-bg: #264653;
+}
+header,
+.hero-section {
+  background-color: var(--main-bg);
+}
+.text-details {
+  color: #e0e0e0 !important;
+}
+.primary-button {
+  background-color: #e76f51 !important;
+  border: none !important;
+}
+.primary-button:focus {
+  box-shadow: none !important;
+}
