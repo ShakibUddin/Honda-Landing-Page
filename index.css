@@ -4,6 +4,7 @@
 :root {
   --main-bg: #264653;
   --primary-text-color: #e76f51;
+  --secondary-text-color: #23a6f0;
 }
 header,
 .hero-section {
@@ -25,4 +26,8 @@ header,
 }
 .featured-bike-image {
   filter: grayscale(100%);
+}
+
+.text-style-secondary {
+  color: var(--secondary-text-color);
 }
