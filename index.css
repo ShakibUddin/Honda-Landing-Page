@@ -3,6 +3,7 @@
 }
 :root {
   --main-bg: #264653;
+  --primary-text-color: #e76f51;
 }
 header,
 .hero-section {
@@ -17,4 +18,11 @@ header,
 }
 .primary-button:focus {
   box-shadow: none !important;
+}
+
+.text-style-primary {
+  color: var(--primary-text-color);
+}
+.featured-bike-image {
+  filter: grayscale(100%);
 }
